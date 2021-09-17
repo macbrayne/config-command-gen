@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[37,)"
+#issueTrackerURL = ""
+license = "LGPLv3"
+
+[[mods]]
+modId = "ccgtestmod"
+version = "${version}"
+displayName = "Config Command Gen Test Mod"
+authors = "macbrayne"
+description = '''
+This is a test mod for checking the functionality of the annotationProcessor
+'''
+#logoFile = ""
+
+[[dependencies.ccgtestmod]]
+modId = "forge"
+mandatory = true
+versionRange = "[37,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ccgtestmod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.17.1,)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "This is a test mod for checking the functionality of the annotationProcessor",
+    "pack_format": 6
+  }
+}

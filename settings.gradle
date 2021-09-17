@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        maven { url "https://maven.fabricmc.net/" }
+        maven { url "https://maven.architectury.dev/" }
+        maven { url "https://maven.minecraftforge.net/" }
+        gradlePluginPortal()
+    }
+}
+
+include("annotation")
+include("compiler:compiler-common")
+include("compiler:compiler-fabric")
+include("compiler:compiler-forge")
+include("testmod:testmod-common")
+include("testmod:testmod-fabric")
+include("testmod:testmod-forge")
+
+rootProject.name = "config-command-gen"

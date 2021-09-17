@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ccgtestmod",
+  "version": "${version}",
+  "name": "Config Command Gen Test Mod",
+  "description": "This is a test mod for checking the functionality of the annotationProcessor",
+  "authors": [
+    "macbrayne"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/macbrayne/config-command-gen"
+  },
+  "license": "LGPLv3",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.macbrayne.architectury.configcommandgen.testmod.fabric.TestModFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": ">=1.17.1"
+  }
+}
